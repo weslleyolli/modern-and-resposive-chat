@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+
+:root {
+    --color-darkPurple: #1A1924;
+    --color-purple: #282843;
+    --color-lightPurple: #633BBC;
+    --color-green: #00B37E;
+    --color-red: #FF0000;
+    --color-lightGreen: #07847E;
+    --color-white: #E1E1E6;
+    --color-extraWhite: #FFFFFF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-darkPurple);
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-white);
+    
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    padding: 25px 75px 5px 75px;
+    position: fixed;
+    background-color: var(--color-darkPurple);
+    z-index: 1;
+    width: 100%;
+}
+
+#chat {
+    padding: 30px 75px;
+    position: relative;
+    overflow-y: hidden;
+    margin-bottom: 100px;
+}
+
+.header-chat {
+    position: relative;
+    margin: 0 0 15px 0;
+    z-index: 2;
+}
+
+.user-info {
+    user-select: none;
+    cursor: pointer;
+    transition: 0.5s all;
+    padding: 10px;
+}
+
+.user-info:hover {
+    background-color: var(--color-purple);
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+.user-name-status {
+    display: inline-block;
+    vertical-align: top;
+    width: 130px;
+    margin: 5px 15px;
+}
+
+.user-name {
+    display: inline-block;
+    vertical-align: top;
+    color: var(--color-extraWhite);
+}
+
+.status-on,
+.status-off {
+    background-color: var(--color-green);
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.status-off {
+    background-color: var(--color-red);
+}
+
+.user-status-on,
+.user-status-off {
+    display: inline-block;
+    color: var(--color-green);
+}
+
+.user-status-off {
+    color: var(--color-red);
+}
+
+.button-window{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 75px;
+    top: 35px;
+    font-size: 30px;
+    user-select: none;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.button-window:hover {
+    background-color: var(--color-purple);
+    border-radius: 10px;
+}
+
+.date-message {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.date-hour {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.receive-message,
+.sent-message {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    justify-items: center;
+}
+
+.sent-message {
+    align-items: flex-end;
+}
+
+.user-h,
+.user-s {
+    font-size: 15px;
+    font-weight: lighter;
+    margin: 30px 0 10px 0;
+}
+
+.box-message-r,
+.box-message-s {
+    background-color: var(--color-lightPurple);
+    padding: 15px;
+    border-radius: 0px 10px 10px 10px;
+    width: fit-content;
+}
+
+.box-message-s {
+    background-color: var(--color-lightGreen);
+    border-radius: 10px 10px 0px 10px;
+}
+
+.box-sent-message {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    position: fixed;
+    left: 5%;
+    bottom: 35px;
+    background-color: var(--color-purple);
+    border-radius: 100px;
+    padding: 0 5px;
+    width: 90%;
+}
+
+.sent-text {
+    font-size: 17px;
+    color: var(--color-extraWhite);
+    background: transparent;
+    outline: none;
+    border: none;
+    font-weight: lighter;
+    padding: 20px 15px;
+    width: 90%;
+}
+
+.sent-text::placeholder {
+    color: var(--color-white);
+    opacity: 0.5;
+}
+
+.btn-sent {
+    position: absolute;
+    right: 35px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.btn-sent:hover {
+    opacity: 0.5;
+}
+
