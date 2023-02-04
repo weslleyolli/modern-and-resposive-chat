@@ -1,20 +1,41 @@
-# #LetsCode ~Challenger four
-> Desenvolvido por :man_technologist: ```@WeslleyOlli```.
 
-| :sparkles: Nome | Chat |
-| - | - |
-| :checkered_flag: STARTED | 27/01/2023 |
-| 	:white_check_mark: FINISHED AT | 27/01/2023 |
-| 	:gear: TECNOLOGIES | Figma, HTML5, CSS3, Javascript |
-| :globe_with_meridians: URL | https://github.com/weslleyolli/modern-and-resposive-chat |
-| 	:person_fencing: Challenger | Recriar o layout https://www.figma.com/community/file/1200070743637495660 |
+<h1 align="center">Modern Chat<h1>
 
-## Details 
-The project was created during the 4th challenge launched by Rocketseat's #boraCodar in which the objective would be to make the layout that was made available by them on the website https://boracodar.dev/ .
+![](./assets/img/Previewchat.png)
 
-## Objetive
-Create a chat with a bot for interaction.
+<br>
+<br>
+
+## 🧪 Technologies
+
+This project was developed using the following technologies:
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+## 🚀 Getting started
+
+Clone the project and acess the folder.
+
+````bash
+$ git clone https://github.com/weslleyolli/modern-and-resposive-chat
+$ cd modern-and-responsive-chat
+````
 
 
-## Preview
-![Challenger IIII gift](./assets/img/preview.gif#vitrinedev)
+### Start the web project
+Open index.html in browser.
+
+
+## 🔖 Layout
+
+You can view the project layout through the links below:
+
+- [Layout](<https://www.figma.com/file/Kosuyj7BQZx3duiqk59Lge/%23boraCodar---Desafio-4-(Community)?t=nFkL5vxY0cut2Iv7-0>)
+
+Remembering that you need to have a [Figma](http://figma.com/) account to access it.
+
+---
+
+Made with 💜 by [Weslleyolli](https://github.com/weslleyolli)👋
